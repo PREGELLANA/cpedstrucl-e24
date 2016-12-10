@@ -59,24 +59,24 @@ int main() {
 	while(1){
 		system("cls");
 		menu();
-		cout<<"============\n";
+		cout<<"----------\n";
 		cout<<"Enter choice: ";
 		cin>>choice;
 		switch(choice){
 			case 1:{
-				cout<<"Enter number: ";
-				cin>>a;
-				s -> push(a);
-				break;
+			cout<<"Enter number: ";
+			cin>>a;
+			s -> push(a);
+			break;
 			}
 			case 2:{
-				cout<<"\nSuccesfully removed!";
-				s -> pop();
-				break;
+			cout<<"\nSuccesfully removed!";
+			s -> pop();
+			break;
 			}
 			case 3:{
-				s -> display();
-				break;
+			s -> display();
+			break;
 			}
 			case 4: exit(1);
 			default: break;
